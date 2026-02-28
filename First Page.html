@@ -6,67 +6,123 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <style>
     .Navigation{
-        background-color:burlywood;
-        font-size: 30px;
-        text-align: center;
-        font-family: "Playfair Display", serif;
-        
-     }
-     
-     .Navigation a:hover{
-        color: lightskyblue;
-     }
+    background-color:wheat;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.Navigation a{
+    text-decoration: none;
+    color: navy;
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    margin: 0 25px;
+    transition: 0.3s;
+  
+}
+
+.Navigation a:hover{
+    color: red;
+    cursor: pointer;
+    
+}
      body{
-        margin: 0;
-        background-image:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e);
-        background-size: 2000px;
+    margin: 0;
+}
+
+.top{
+    position: relative;
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+
+.background: linear-gradient(
+    to bottom,
+    rgba(255, 200, 150, 0.4),
+    rgba(0, 0, 0, 0.5)
+);
+
+.top-content{
+    position: relative;
+    z-index: 1;
+}
         
 
-     }
+     
      a{
         margin-left: 30px;
      }
      h1{
         text-align: center;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 50px;
+       font-family: "Pacifico", cursive;
+       font-size: 80px;
+       margin-top: 100px;
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   
+}
 
-     }
+       
+
+     
      p{
-        font-size: 25px;
+        font-size: 30px;
         text-align: center;
         font-style: italic;
+        margin-bottom:200px ;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+        
      }
      button{
-        text-align: center;
-        width: 300px;
-        font-size: 50px;
-        border: 5px solid navy;
-        border-radius: 30px;
-        margin-left: 600px;
-        margin-top: 100px;
-        background-color:lightcyan;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    padding: 15px 40px;
+    font-size: 22px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(255,255,255,0.9);
+    color: black;
+    cursor: pointer;
+    margin-bottom: 200px;
+ 
+}
 
-     }
+button:hover{
+
+    background-color: lightblue;
+}
 
 
 </style>
 <body>
+
     <div class="Navigation">
-    <nav>
-        <a href="First Page.html">Home</a>
-         <a href="Countries.html">Places</a>
-         <a href="Contact.html">Contact</a>
-    </nav>
+        <nav>
+            <a href="First Page.html">Home</a>
+            <a href="Countries.html">Places </a>
+            <a href="Contact.html">Contact Us </a>
+        </nav>
     </div>
-    <h1>Ocean Travels</h1>
-    <p>Discover Dream Destinations and explore their culture, food, lifestyle.</p>
-    <button>Explore Different Countries</button>
-    
+
+    <section class="top">
+        <div class="top-content">
+            <h1>Ocean Trails</h1>
+            <p>
+                Chasing sunsets, ocean breezes, and unforgettable moments across the world’s most beautiful shores
+            </p>
+            <button>Explore Destinations</button>
+        </div>
+    </section>
+
+</body>
 </body>
 </html>
