@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans:wght@100..800&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href=
 
 "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -23,19 +27,184 @@ integrity=
 "sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
 
 crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans:wght@100..800&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
 </head>
+<style>
+    .Navigation{
+    background-color:wheat;
+    padding:20px;
+    text-align:center;
+}
+
+.Navigation a{
+    text-decoration:none;
+    color:navy;
+    font-family:"Playfair Display", serif;
+    font-size:22px;
+    margin:0 20px;
+    transition:0.3s;
+}
+
+.Navigation a:hover{
+    color:red;
+}
+.Navigation {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+   
+    body{
+        background-color: rgb(121, 173, 188);
+    }
+    .hotel-container{
+    display:flex;
+    justify-content:center;
+    gap:100px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.hotel-card{
+    background:white;
+    width:600px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    padding:15px;
+    text-align:center;
+    transition:0.3s;
+     font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400;
+  font-style: normal;
+
+}
+
+.hotel-card img{
+    width:100%;
+    height:200px;
+    border-radius:10px;
+}
+
+.hotel-card:hover{
+    transform:scale(1.05);
+}
+
+.rating{
+    color:gold;
+    font-size:18px;
+}
+h2{
+    
+    background-color:lightgrey;
+padding:10px;
+margin-top:20px;
+    
+}
+h2:hover{
+    transform:scale(1.05);
+}
+h2{
+    
+
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+  text-align: center;
+}
+
+</style>
 <body>
-     <div class="card-grid">
-        <div class="row">
-            <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="https://internationalliving.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2Fwv75stsetqy3%2F18jOEJrhKM7WA81nkCKZV8%2F6f70df258ed1233d5c3a8e3f01298b06%2FGreece.jpg%3Fq%3D60%26fit%3Dfill%26fm%3Dwebp&w=3840&q=60"
-                    alt="greece">
-                    <div class="card-body">
-                        <h4 class="card-title">Greece</h4>
-                        <button type="button" class="btn btn-primary">Explore</button>
-                    </div>
-                </div>
-            </div>
+    <div class="Navigation">
+        <nav>
+            <a href="First Page.html">Home</a>
+            <a href="Explore Button.html">Places </a>
+            <a href="Greece button.html">Greece Home</a>
+            <a href="Contact.html">Contact Us </a>
+        </nav>
+    </div>
+     <h2>Hotels</h2>
+
+<div class="hotel-container">
+
+<div class="hotel-card">
+    <img src="https://q-xx.bstatic.com/xdata/images/hotel/max500/559001787.jpg?k=463079a4b2a236fad9d244c07a780401d9fe2b345bd1be13c3baaba75a398721&o=">
+    <h3>Arethusa Hotel Athens</h3>
+    <p class="rating">★★★★☆</p>
+    <p><b>Price: €60–70 per night</b><br>
+Located in the center of Athens, this budget-friendly hotel is just a short walk from famous landmarks like the Acropolis of Athens. It offers comfortable rooms, free Wi-Fi, breakfast service, and easy access to shops and restaurants, making it great for travelers who want a simple but convenient stay.</p>
+</div>
+
+
+<div class="hotel-card">
+    <img src="https://www.amazonhotel.gr/athens/wp-content/uploads/2021/09/Amazon-Hote-entrance-1.jpg">
+    <h3>Amazon Hotel Athens</h3>
+    <p class="rating">★★★★★</p>
+    <p><b>Price: ~€70–80 per night</b><br>
+This modern hotel sits in the lively Plaka district of Athens. It has stylish rooms, free Wi-Fi, and a breakfast buffet. The location is excellent for exploring historic sites, cafes, and museums nearby.</p>
+</div>
+<div class="hotel-card">
+    <img src="https://images.travel-cdn.com/image/upload/s--Fy69Bnzp--/c_limit,e_improve,fl_lossy.immutable_cache,h_940,q_auto:good,w_940/v1666053239/4074106fd5e8eda81b16e9772897eee14338a3de">
+    <h3>President Hotel Athens</h3>
+    <p class="rating">★★★★☆</p>
+    <p><b>Price: ~€90–100 per night</b> <br>
+A large 4-star hotel in Athens known for its rooftop swimming pool and panoramic city views. Guests can enjoy restaurants, bars, conference rooms, and comfortable modern rooms, making it popular with both tourists and business travelers.</p>
+</div>
+<div class="hotel-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_CQiFVfgB5haNMkjs2R59hRTaYzec4XbmpA&s">
+    <h3>Amalia Hotel Athens</h3>
+    <p class="rating">★★★★☆</p>
+    <p><b>Price: ~€100–120 per night</b> <br>
+A large 4-star hotel in Athens known for its rooftop swimming pool and panoramic city views. Guests can enjoy restaurants, bars, conference rooms, and comfortable modern rooms, making it popular with both tourists and business travelers.</p>
+</div>
+<div class="hotel-card">
+    <img src="https://www.momondo.com/rimg/himg/60/a1/74/expedia_group-7354490-dca300-485665.jpg?width=968&height=607&crop=true">
+    <h3>Gallery Suites & Residences Piraeus</h3>
+    <p class="rating">★★★★☆</p>
+    <p><b>Price: ~€170–180 per night</b> <br>
+Located in Piraeus, this modern hotel offers stylish suites with kitchenettes, fitness facilities, and comfortable living spaces. It’s ideal for travelers who want easy ferry access to the Greek islands.</p>
+</div>
+<div class="hotel-card">
+    <img src="https://images.trvl-media.com/lodging/17000000/16510000/16508200/16508136/eedd2e87.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill">
+    <h3>Stella Island Luxury Resort & Spa</h3>
+    <p class="rating">★★★★☆</p>
+    <p><b>Price: ~€200–300 per night</b> <br>
+Located on the island of Crete, this adults-only luxury resort is famous for its huge lagoon-style pools and overwater-style villas. Guests enjoy spa treatments, multiple restaurants, fitness facilities, and a peaceful tropical atmosphere.</p>
+</div>
+<div class="hotel-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMOjPE4fv15KmzeOZ85-YZMq8hzeHjWopY8A&s">
+    <h3>Canaves Oia Suites</h3>
+    <p class="rating">★★★★☆</p>
+    <p><b>Price: ~€500–700 per night</b> <br>
+Perched on the cliffs of Santorini, this luxury hotel offers stunning caldera views. It features infinity pools, fine dining restaurants, spa services, and beautiful white-cave suites overlooking the sea.</p>
+</div>
+<div class="hotel-card">
+    <img src="https://www.redsavannah.com/-/media/countries/greece/accommodation/santa-marina-resort-and-villas/santa-marina-mykonos-oasis-pool-lounge.jpg">
+    <h3>Santa Marina Mykonos</h3>
+    <p class="rating">★★★★☆</p>
+    <p><b>Price: ~€550–700 per night</b> <br>
+<p>Situated near Ornos Bay, this 5-star resort is famous for having the island’s only private beach. It offers luxury villas, a spa, tennis courts, beach bars, and high-end restaurants.</p>
+</div>
+<div class="hotel-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpNxQFBv1mKDboLiaFCAQrmFPuoQEedt8oig&s">
+    <h3>Grace Hotel Santorini</h3>
+    <p class="rating">★★★★★</p>
+    <p><b>Price: ~€800–1000 per night</b> <br>
+This boutique luxury hotel is known for its iconic infinity pool overlooking the Aegean Sea. Guests enjoy private terraces, luxury suites, fine dining, spa services, and incredible sunset views.</p>
+</div>
+<div class="hotel-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOT-Y5snIzuH3s2jOY0l6vo4LHSksBIUhCSw&s">
+    <h3>Amanzoe</h3>
+    <p class="rating">★★★★★</p>
+    <p><b>Price: ~€2000–3000+ per night</b> <br>
+Located in the hills of the Peloponnese, Amanzoe is one of the most luxurious resorts in Greece. It offers private villas with pools, world-class spa facilities, yoga pavilions, and breathtaking views of olive groves and the sea.</p>
+</div>
+
+
+</div>
 </body>
 </html>

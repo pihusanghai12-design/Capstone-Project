@@ -1,51 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Greek Food</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+    font-family: "Poppins", sans-serif;
+   background-color:rgb(121, 173, 188);
+    margin:0;
+    cursor: pointer;
+}
+
+
+
+.Navigation{
+    background-color:wheat;
+    padding:20px;
+    text-align:center;
+}
+
+.Navigation a{
+    text-decoration:none;
+    color:navy;
+    font-family:"Playfair Display", serif;
+    font-size:22px;
+    margin:0 20px;
+    transition:0.3s;
+}
+
+.Navigation a:hover{
+    color:red;
+}
+.Navigation {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+   
+
+
+
+h2{
+    text-align:center;
+    margin-top:30px;
+    font-family:"Playfair Display", serif;
+    font-size:32px;
+    background-color:lightgrey;
+padding:10px;
+margin-top:20px;
+    
+}
+h2:hover{
+    transform:scale(1.05);
+}
+/* Table */
+
+table{
+    width:90%;
+    margin:40px auto;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+th, td{
+    padding:15px;
+    text-align:center;
+    border:1px solid #ddd;
+}
+
+th{
+    background-color:navy;
+    color:white;
+}
+
+tr:hover{
+    background-color:#f2f2f2;
+}
+
+/* Images */
+
+td img{
+    width:150px;
+    border-radius:8px;
+}
+
+</style>
 </head>
+
 <body>
-    <h2>Food Comparison</h2>
-    <table border="4">
-        <tr>
-            <th>S.No</th>
-            <th>Image</th>
-            <th>Food</th>
-            <th>Description</th>
-        </tr>
-        
-        <tr>
-                <td>1</td>
-                <td><img src="https://assets.bonappetit.com/photos/63f677cccd25bfbd2dccfaae/4:3/w_4252,h_3189,c_limit/022223-greek-salad-lede.jpg" alt="Greek Salad" width="150"></td>
-                <td><b>Greek Salad</b></td>
-                <td>A classic salad made with ripe tomatoes, crisp cucumbers, Kalamata olives, feta cheese, and a drizzle of olive oil, embodying the freshness of the Mediterranean.</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td><img src="https://images.unsplash.com/photo-1550547660-d9450f859349" alt="Moussaka" width="150"></td>
-                <td><b>Moussaka</b></td>
-                <td>A hearty, layered casserole featuring eggplant, spiced ground meat, and a creamy béchamel sauce—a quintessential Greek comfort dish.</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td><img src="https://www.mygreekdish.com/wp-content/uploads/2013/05/Traditional-Greek-Baklava-recipe-with-honey-and-walnuts-1-scaled.jpeg" alt="Baklava" width="150"></td>
-                <td><b>Baklava</b></td>
-                <td>A sweet, flaky pastry made with layers of filo, crushed nuts, and honey syrup—a dessert as rich in flavor as it is in tradition.</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td><img src="https://www.seriouseats.com/thmb/qAysZs1vJYvMCSSpsHRqRlsvExQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20090319-pork-souvlaki-9a80ec7534d3427c888d2d0f939540a6.jpg" alt="Souvlaki" width="150"></td>
-                <td><b>Souvlaki</b></td>
-                <td>Grilled skewers of marinated meat, often served with pita, tzatziki, and a salad—a favorite street food that captures the essence of Greek flavor.</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl46kldoM7IDVvNknwwrlBr8PWp4Lukzbc2A&s" alt="Spanakopita" width="150"></td>
-                <td><b>Spanakopita</b></td>
-                <td>A golden, flaky pastry filled with spinach, feta, and herbs, enjoyed as a savory snack or light meal—beloved across Greek households.</td>
-            </tr>
-       
-    </table>
+
+<div class="Navigation">
+        <nav>
+            <a href="First Page.html">Home</a>
+            <a href="Explore Button.html">Places </a>
+            <a href="Greece button.html">Greece Home</a>
+            <a href="Contact.html">Contact Us </a>
+        </nav>
+    </div>
+
+<h2>Greek Food</h2>
+
+<table>
+
+<tr>
+<th>S.No</th>
+<th>Image</th>
+<th>Food</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td><img src="https://assets.bonappetit.com/photos/63f677cccd25bfbd2dccfaae/4:3/w_4252,h_3189,c_limit/022223-greek-salad-lede.jpg"></td>
+<td><b>Greek Salad</b></td>
+<td>A classic salad made with tomatoes, cucumbers, olives, feta cheese and olive oil representing the freshness of Mediterranean cuisine.</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"></td>
+<td><b>Moussaka</b></td>
+<td>A famous layered dish made with eggplant, spiced meat and creamy béchamel sauce, known as a traditional Greek comfort food.</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><img src="https://www.mygreekdish.com/wp-content/uploads/2013/05/Traditional-Greek-Baklava-recipe-with-honey-and-walnuts-1-scaled.jpeg"></td>
+<td><b>Baklava</b></td>
+<td>A sweet pastry made of filo layers filled with nuts and honey syrup, popular across Greece and the Mediterranean.</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td><img src="https://www.seriouseats.com/thmb/qAysZs1vJYvMCSSpsHRqRlsvExQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20090319-pork-souvlaki-9a80ec7534d3427c888d2d0f939540a6.jpg"></td>
+<td><b>Souvlaki</b></td>
+<td>Grilled skewers of marinated meat served with pita bread and tzatziki sauce, a popular Greek street food.</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl46kldoM7IDVvNknwwrlBr8PWp4Lukzbc2A&s"></td>
+<td><b>Spanakopita</b></td>
+<td>A crispy pastry filled with spinach, feta cheese and herbs, commonly enjoyed as a snack or light meal.</td>
+</tr>
+
+</table>
+
 </body>
 </html>

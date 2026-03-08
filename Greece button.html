@@ -1,140 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href=
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Greece</title>
 
-"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-integrity=
+<link rel="stylesheet"
+href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 
-"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Playfair+Display:wght@500&family=SN+Pro:wght@400&display=swap" rel="stylesheet">
 
-crossorigin="anonymous">
-
-<link rel="stylesheet" href=
-
-"https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-
-integrity=
-
-"sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-
-crossorigin="anonymous">
-</head>
 <style>
-    body{
-background-image: linear-gradient(
-rgba(255,255,255,0.7),
-rgba(255,255,255,0.7)
-),
-url("https://images.unsplash.com/photo-1505761671935-60b3a7427bad");
 
+body{
+background-image: linear-gradient(
+rgba(255,255,255,0.6),
+rgba(255,255,255,0.6)),
+url("https://images.unsplash.com/photo-1505761671935-60b3a7427bad");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+margin:0;
+cursor: pointer;
 }
-.btn-primary{
-    font-weight: bolder;
-    margin-left:500px;
-    margin-right: 20px;
-   }
-   .btn-warning{
-    font-weight: bolder;
-    margin-right: 20px;
-   }
-   .btn-secondary{
-    font-weight: bolder;
-   margin-right: 20px; 
-   }
-   .btn-success{
-    font-weight: bolder;
-    margin-right: 20px;
-   }
-     .Navigation{
-    background-color:wheat;
-    padding: 20px;
-    text-align: center;
-    
+
+/* Navigation */
+
+.Navigation{
+background-color:wheat;
+padding:20px;
+text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.2);
 }
 
 .Navigation a{
-    text-decoration: none;
-    color: navy;
-    font-family: "Playfair Display", serif;
-    font-size: 22px;
-    margin: 0 25px;
-    transition: 0.3s;
-  
+text-decoration:none;
+color:navy;
+font-family:"Playfair Display", serif;
+font-size:22px;
+margin:0 25px;
+transition:0.3s;
 }
 
 .Navigation a:hover{
-    color: red;
-    cursor: pointer;
-    
+color:red;
 }
-   
-</style>
-<body>
-    <div class="Navigation">
-        <nav>
-            <a href="First Page.html">Home</a>
-            <a href="Countries.html">Places </a>
-            <a href="Contact.html">Contact Us </a>
-        </nav>
-    </div>
 
-    <h1>Greece</h1>
-    <p>Greece, a cradle of Western civilization, is a land of enchanting contrasts where ancient history and modern life intertwine. Known for its iconic whitewashed villages perched on sun-drenched cliffs, Greece invites travelers to explore a cultural tapestry that spans millennia. From the majestic Acropolis towering over Athens to the sapphire waters of the Aegean Sea, every corner of Greece tells a story. The Greek lifestyle is rooted in hospitality (philoxenia), a deep love for family, and a zest for daily pleasures—whether it’s savoring a leisurely meal, dancing at a traditional festival, or watching the sun set over Santorini. People flock to Greece not just for its postcard-perfect landscapes, but for the warmth of its culture, the richness of its history, and the vibrant spirit of its people.</p>
-    <div class="buttons">
-    <button type="button" class="btn btn-primary">Food</button>
-    <button type="button" class="btn btn-warning">Places to visit</button>
-    <button type="button" class="btn btn-secondary">Hotels</button>
-    <button type="button" class="btn btn-success">Culture and Lifestyles</button>
-    </div>
-    <h2>Food Comparison</h2>
-    <table border="4">
-        <tr>
-            <th>S.No</th>
-            <th>Image</th>
-            <th>Food</th>
-            <th>Description</th>
-        </tr>
-        
-        <tr>
-                <td>1</td>
-                <td><img src="https://assets.bonappetit.com/photos/63f677cccd25bfbd2dccfaae/4:3/w_4252,h_3189,c_limit/022223-greek-salad-lede.jpg" alt="Greek Salad" width="150"></td>
-                <td><b>Greek Salad</b></td>
-                <td>A classic salad made with ripe tomatoes, crisp cucumbers, Kalamata olives, feta cheese, and a drizzle of olive oil, embodying the freshness of the Mediterranean.</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td><img src="https://images.unsplash.com/photo-1550547660-d9450f859349" alt="Moussaka" width="150"></td>
-                <td><b>Moussaka</b></td>
-                <td>A hearty, layered casserole featuring eggplant, spiced ground meat, and a creamy béchamel sauce—a quintessential Greek comfort dish.</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td><img src="https://www.mygreekdish.com/wp-content/uploads/2013/05/Traditional-Greek-Baklava-recipe-with-honey-and-walnuts-1-scaled.jpeg" alt="Baklava" width="150"></td>
-                <td><b>Baklava</b></td>
-                <td>A sweet, flaky pastry made with layers of filo, crushed nuts, and honey syrup—a dessert as rich in flavor as it is in tradition.</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td><img src="https://www.seriouseats.com/thmb/qAysZs1vJYvMCSSpsHRqRlsvExQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20090319-pork-souvlaki-9a80ec7534d3427c888d2d0f939540a6.jpg" alt="Souvlaki" width="150"></td>
-                <td><b>Souvlaki</b></td>
-                <td>Grilled skewers of marinated meat, often served with pita, tzatziki, and a salad—a favorite street food that captures the essence of Greek flavor.</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl46kldoM7IDVvNknwwrlBr8PWp4Lukzbc2A&s" alt="Spanakopita" width="150"></td>
-                <td><b>Spanakopita</b></td>
-                <td>A golden, flaky pastry filled with spinach, feta, and herbs, enjoyed as a savory snack or light meal—beloved across Greek households.</td>
-            </tr>
-       
-    </table>
-    
+/* Heading */
+
+h1{
+font-family:"Exo 2", sans-serif;
+font-weight:700;
+text-align:center;
+background-color:lightgrey;
+padding:10px;
+margin-top:20px;
+}
+
+/* Paragraph */
+
+p{
+font-family:"SN Pro", sans-serif;
+font-size:20px;
+width:80%;
+margin:auto;
+text-align:justify;
+line-height:1.7;
+}
+
+/* Images */
+
+.image-section{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.image-section img{
+width:350px;
+height:200px;
+margin:15px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Buttons */
+
+.buttons{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:40px;
+margin-bottom:40px;
+}
+
+.buttons button{
+font-size:22px;
+font-weight:bold;
+margin:15px;
+border-radius:20px;
+padding:10px 20px;
+transition:0.3s;
+}
+
+.btn-primary:hover{
+background-color:navy;
+transform:scale(1.05);
+}
+
+.btn-warning:hover{
+background-color:darkgoldenrod;
+transform:scale(1.05);
+}
+
+.btn-danger:hover{
+background-color:indianred;
+transform:scale(1.05);
+}
+
+.btn-success:hover{
+background-color:darkgreen;
+transform:scale(1.05);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="Navigation">
+<nav>
+<a href="First Page.html">Home</a>
+<a href="Explore Button.html">Places</a>
+<a href="Contact.html">Contact Us</a>
+</nav>
+</div>
+
+<h1>Greece</h1>
+
+<p>
+Greece, a cradle of Western civilization, is a land where ancient history and modern life blend beautifully. Famous for its whitewashed villages, blue domes, and stunning islands, Greece attracts visitors from all over the world. From the majestic Acropolis in Athens to the crystal-clear waters of the Aegean Sea, every place tells a story of culture and history.
+</p>
+
+<p>
+Greek culture values hospitality, family traditions, and joyful celebrations. Visitors enjoy delicious Mediterranean food, vibrant festivals, and breathtaking sunsets in places like Santorini and Mykonos.
+</p>
+
+<p>
+Located in Southeast Europe, Greece borders Albania, North Macedonia, Bulgaria, and Turkey. With thousands of islands and one of the longest coastlines in the Mediterranean, Greece remains one of the world's most fascinating travel destinations.
+</p>
+
+<div class="image-section">
+<img src="https://i.pinimg.com/736x/74/a7/97/74a7979d5206f862b7e3ab1f5ec15f92.jpg">
+<img src="https://i.pinimg.com/1200x/54/cd/5b/54cd5b525b57db8e9a3fe03606d39d42.jpg">
+<img src="https://i.pinimg.com/1200x/a5/4a/8f/a54a8f8ed958893383a4fb92b45ff7e8.jpg">
+</div>
+
+<div class="buttons">
+
+<button onclick="window.location.href='Greece food.html'" class="btn btn-primary">
+Food
+</button>
+
+<button onclick="window.location.href='Greece Places.html'" class="btn btn-warning">
+Places to Visit
+</button>
+
+<button onclick="window.location.href='Greece Hotels.html'" class="btn btn-danger">
+Hotels
+</button>
+
+<button onclick="window.location.href='Greece culture.html'" class="btn btn-success">
+Culture & Lifestyle
+</button>
+
+</div>
+
 </body>
 </html>
